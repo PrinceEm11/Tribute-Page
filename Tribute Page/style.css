@@ -1,0 +1,48 @@
+@font-face {
+    font-family: daredevil;
+    src: url(fonts/fontfolder/daredevil.ttf);
+  }
+
+  @font-face {
+    font-family: wolverine;
+    src: url(fonts/fontfolder/wolfsbane2.ttf);
+  }
+
+
+  @font-face {
+    font-family: punisher;
+    src: url(fonts/fontfolder/punishment.otf);
+  }
+
+
+
+
+body {background-color: rgb(160, 160, 160);
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    width: 300px; 
+}
+
+
+  h2{ 
+    font-family: daredevil;
+    color: rgb(133, 1, 1);
+  }
+
+  .Wolverine{
+    font-family: wolverine;
+    font-size: 90px;
+    color: #FFFE03;
+  }
+
+  .the-punisher{
+    font-family: punisher;
+    font-size: 40px;
+    color: black;
+  }
